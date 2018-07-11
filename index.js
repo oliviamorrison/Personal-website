@@ -11,7 +11,6 @@ let projectsData= [{
     html_ulr: 'https://github.com/oliviamorrison/Guess-timator',
     desription: 'A fun project for the summer of tech web weekend challenge!'
 }];
-
 app.get('/api/projects', (req,res) => {
     // return projects as a json
     res.json(projectsData);
